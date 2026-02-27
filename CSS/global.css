@@ -1,13 +1,13 @@
-/* Variáveis do Design System */
-:root{
-    --primary-color: #6366f1;
-    --primary-hover: #4f46e5;
-    --bg-color: #f8fafc;
-    --text-color: #1e293b;
+/* variaveis do design system */
+
+:root {
+    --primary-color: #F6C445;
+    --primary-hover: #E5B233;
+    --bg-color: #FFF8E6;
+    --text-color: #5C3A21;
     --white: #ffffff;
-    --shadow: 0 4px 6px -1px #rgba
-
-
-
+    --shadow: 0 4px 6px -1px rgba(92, 58, 33, 0.15), 0 2px 4px rgba(92, 58, 33, 0.1);
+    --radius: 12px;
+    --font-main: "Montserrat", sans-serif;
 }
-
+/* reset básico */
