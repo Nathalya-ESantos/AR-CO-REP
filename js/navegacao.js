@@ -8,9 +8,14 @@ function criarBotaoVoltar(){
     btnVoltar.style.marginTop = '20px'
 
     // 3. lógica do click
-    btnVoltar.addEventListener('click', function() {
+    function navegar(){
         window.location.href = '../index.html'
-    });
+    };
+    btnVoltar.addEventListener('click', navegar);
+
+    // btnVoltar.addEventListener('click', function() {
+    //     window.location.href = '../index.html'
+    // });
 
     // 4. add btn no final do index
     document.body.appendChild(btnVoltar);
